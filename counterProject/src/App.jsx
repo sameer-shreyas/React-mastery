@@ -11,7 +11,10 @@ function App() {
     console.log("value added", Math.random());
     // counter++;
     if(counter + 1 <= 20)
-      setCounter(counter+1)
+      setCounter(counter => counter + 1)
+      setCounter(counter => counter + 1)
+      setCounter(counter => counter + 1)
+      setCounter(counter => counter + 1)
     console.log("Clicked", counter);
   }
   const RemoveValue = () => {
